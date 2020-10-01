@@ -10,7 +10,7 @@ namespace ToDo.DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           optionsBuilder.UseSqlServer(@"Server=WISGNDTYAZ974A;Database=Todo;Trusted_Connection=true")
+            optionsBuilder.UseSqlServer(@"Server=WISGNDTYAZ974A;Database=Todo;Trusted_Connection=true");
         }
 
         public DbSet<User> Users { get; set; }

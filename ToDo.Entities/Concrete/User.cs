@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ToDo.Core.Entities;
 
 namespace ToDo.Entities.Concrete
 {
